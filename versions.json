@@ -132,6 +132,28 @@
 					"version": "^3.0.0"
 				}
 			]
+		},
+		"起源框架拓展-人模切换": {
+			"latest": "3.1.0",
+			"versions": {
+				"3.1.0": {
+					"date": "2026-07-22",
+					"file": "起源框架拓展-人模切换-3.1.0.zip",
+					"size": 354814,
+					"dl": 0,
+					"changes": "v3.1.0: 修复外部mod图片加载(新增ImageLoaderAddon注册); 仪态选择实际生效(face+basehead重定向); 教程更新为v3目录结构",
+					"minGame": "0.5.10.12"
+				}
+			},
+			"group": "人模",
+			"description": "人模热切换 v3.1：覆盖 Renderer.ImageLoader 走 modZip.readFile + blob URL 加载自定义图片路径，彻底解决 CJK 路径 404。改脸 + 仪态双重选择。须装起源框架 v3.0+ 并排在本 mod 之前。",
+			"author": "画家K",
+			"deps": [
+				{
+					"name": "起源框架",
+					"version": "^3.0.0"
+				}
+			]
 		}
 	}
 }
