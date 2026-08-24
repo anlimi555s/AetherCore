@@ -1,0 +1,72 @@
+{
+	"mods": {
+		"起源框架": {
+			"latest": "3.40.0",
+			"versions": {
+				"3.40.0": {
+					"date": "2026-08-24",
+					"file": "起源框架-3.40.0.zip",
+					"size": 201072,
+					"dl": 0,
+					"changes": "战斗系统 API 合并重构(combat-manager/combat-extended 兼容) + toNativeActions 原生输出 + clothing-addon v1.2 适配 DoL 0.5.11.9(ClothesItem 类化, 0.5.10.12 降级) + palette/npc-relations 修复; 作者 Selena & Katherine"
+				}
+			},
+			"group": "基座",
+			"description": "起源框架 (Genesis) 基座: 渲染器/衣服/发型/技能/经济/NPC/文本注入通用框架, 美化功能归入内容包 + 起源管理器(诊断/mod开关/联网更新)。原 susato-model ZH 的框架层与 寿里美化拓展-起源管理器 合并升格。零图像; 美化图像与衣物内容在「起源框架-寿里美化包」。须排 Mod Loader 列表最前。\nGenesis Framework: runtime base for renderer/clothing/hair/skill/economy/NPC/text injection. Cosmetic features moved to content pack. Includes manager (diagnosis/mod toggles/updates). Zero images. Must be loaded first in Mod Loader.",
+			"author": "Selena & Katherine",
+			"deps": []
+		},
+		"起源框架-寿里美化包": {
+			"latest": "2.13.6",
+			"versions": {
+				"2.13.6": {
+					"date": "2026-08-24",
+					"file": "起源框架-寿里美化包-2.13.6.zip",
+					"size": 40585099,
+					"dl": 0,
+					"changes": "适配 DoL 0.5.11.9: 耳朵层级尊重 tf_ears_layer 选项 + model-addon 括号修复 + 时装系统拆出为独立 mod",
+					"parts": [
+						"起源框架-寿里美化包-2.13.6.zip.part1",
+						"起源框架-寿里美化包-2.13.6.zip.part2",
+						"起源框架-寿里美化包-2.13.6.zip.part3"
+					],
+					"partSizes": [
+						19922944,
+						19922944,
+						739211
+					]
+				}
+			},
+			"group": "框架",
+			"description": "寿里美化内容包: 全量美化图像(10861 张) + 注册衣物/发型数据 + 具体衣物渲染补丁。框架层已升格为独立基座 mod「起源框架」(须排本包之前)。原 susato-model ZH。",
+			"author": "susato-model",
+			"deps": [
+				{
+					"name": "起源框架",
+					"version": "^3.0.0"
+				}
+			]
+		},
+		"时装系统": {
+			"latest": "3.0.0",
+			"versions": {
+				"3.0.0": {
+					"date": "2026-08-24",
+					"file": "时装系统-3.0.0.zip",
+					"size": 13347,
+					"dl": 0,
+					"changes": "首发: 叠穿独立 mod(由美化包拆出), 每槽位不限层, 逐层合成缓存渲染, 逐层显隐/一键褪光/套装存取含颜色, 依赖起源框架 ^3.0.0"
+				}
+			},
+			"group": "拓展功能",
+			"description": "DoL 叠穿/时装系统独立 mod。给每个衣物槽位增加叠层支持：衣柜里多件衣服套穿、逐层显隐、一键褪光、套装存取(含颜色)。渲染采用离屏合成+独立渲染层，不污染原版渲染管线。依赖起源框架 (SusatoTextAddon 注入 + SusatoModel 抽象层)。",
+			"author": "Selena & Katherine",
+			"deps": [
+				{
+					"name": "起源框架",
+					"version": "^3.0.0"
+				}
+			]
+		}
+	}
+}
