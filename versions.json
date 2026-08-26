@@ -118,14 +118,14 @@
 			"deps": []
 		},
 		"起源拓展-云存档": {
-			"latest": "1.1.0",
+			"latest": "1.1.1",
 			"versions": {
-				"1.1.0": {
+				"1.1.1": {
 					"date": "2026-08-26",
-					"file": "起源拓展-云存档-1.1.0.zip",
-					"size": 7290,
+					"file": "起源拓展-云存档-1.1.1.zip",
+					"size": 7336,
 					"dl": 0,
-					"changes": "GitHub 私有仓库云存档: 上传/恢复/删除, token 仅存本地, 反代可配; SusatoTextAddon 标签注入"
+					"changes": "修复 0.5.11.9 兼容: 存档页标签注入改用新版 titleSaves 布局(Export/Import 按钮锚点), 云存档按钮恢复出现"
 				}
 			},
 			"group": "拓展功能",
