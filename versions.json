@@ -84,6 +84,59 @@
 					"version": "^3.0.0"
 				}
 			]
+		},
+		"No Daily Stat Decay": {
+			"latest": "1.0.0",
+			"versions": {
+				"1.0.0": {
+					"date": "2026-08-26",
+					"file": "No Daily Stat Decay-1.0.0.zip",
+					"size": 661,
+					"dl": 0,
+					"changes": "每日效果后回补 4 项属性会(willpower/masochism/sadism/physique), 抑制日常衰减; 补丁目标对 0.5.11.9 逐字节验证"
+				}
+			},
+			"group": "拓展功能",
+			"description": "阻止体能/意志力/受虐/施虐每天自动衰竭",
+			"author": "画家K",
+			"deps": []
+		},
+		"Unlock All Special Clothes Sets": {
+			"latest": "1.0.0",
+			"versions": {
+				"1.0.0": {
+					"date": "2026-08-26",
+					"file": "Unlock All Special Clothes Sets-1.0.0.zip",
+					"size": 870,
+					"dl": 0,
+					"changes": "无条件解锁全部特殊服装套装; 补丁目标对 0.5.11.9 逐字节验证"
+				}
+			},
+			"group": "拓展功能",
+			"description": "解锁 Forest Shop 全部特殊服装套装，无需满足原始解锁条件（季节/剧情/feat/好感度等）",
+			"author": "画家K",
+			"deps": []
+		},
+		"起源拓展-云存档": {
+			"latest": "1.1.0",
+			"versions": {
+				"1.1.0": {
+					"date": "2026-08-26",
+					"file": "起源拓展-云存档-1.1.0.zip",
+					"size": 7290,
+					"dl": 0,
+					"changes": "GitHub 私有仓库云存档: 上传/恢复/删除, token 仅存本地, 反代可配; SusatoTextAddon 标签注入"
+				}
+			},
+			"group": "拓展功能",
+			"description": "云存档扩展：将存档上传到 GitHub 私有仓库，支持上传/恢复/删除。依赖起源框架。",
+			"author": "anlimi555s",
+			"deps": [
+				{
+					"name": "起源框架",
+					"version": "^3.0.0"
+				}
+			]
 		}
 	}
 }
