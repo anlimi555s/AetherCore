@@ -93,7 +93,7 @@
 					"file": "No Daily Stat Decay-1.0.0.zip",
 					"size": 661,
 					"dl": 0,
-					"changes": "每日效果后回补 4 项属性会(willpower/masochism/sadism/physique), 抑制日常衰减; 补丁目标对 0.5.11.9 逐字节验证"
+					"changes": "每日效果后回补 4 项属性会(willpower/masochism/sadism/physique), 抑制日常衰减"
 				}
 			},
 			"group": "拓展功能",
@@ -109,7 +109,7 @@
 					"file": "Unlock All Special Clothes Sets-1.0.0.zip",
 					"size": 870,
 					"dl": 0,
-					"changes": "无条件解锁全部特殊服装套装; 补丁目标对 0.5.11.9 逐字节验证"
+					"changes": "无条件解锁全部特殊服装套装"
 				}
 			},
 			"group": "拓展功能",
@@ -118,14 +118,14 @@
 			"deps": []
 		},
 		"起源拓展-云存档": {
-			"latest": "1.1.1",
+			"latest": "1.1.2",
 			"versions": {
-				"1.1.1": {
+				"1.1.2": {
 					"date": "2026-08-26",
-					"file": "起源拓展-云存档-1.1.1.zip",
-					"size": 7336,
+					"file": "起源拓展-云存档-1.1.2.zip",
+					"size": 7347,
 					"dl": 0,
-					"changes": "修复 0.5.11.9 兼容: 存档页标签注入改用新版 titleSaves 布局(Export/Import 按钮锚点), 云存档按钮恢复出现"
+					"changes": "修复: SusatoTextAddon 锚点改挂纯宏行(toggleTab+optionsExportImport 组合), 不受汉化文本影响; 撤回 1.1.0/1.1.1"
 				}
 			},
 			"group": "拓展功能",
