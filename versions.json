@@ -277,5 +277,9 @@
 				}
 			]
 		}
+	},
+	"notice": {
+		"file": "notice.html",
+		"sha256": "fe9aa844e99c0d704d78f0240a2f6a7e500b7f89cc3e91c2c544d72299fa146d"
 	}
 }
